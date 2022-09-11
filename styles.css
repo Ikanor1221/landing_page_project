@@ -171,3 +171,38 @@ a {
 .card .text {
     width: 170px;
 }
+
+.contentRow3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.contentRow3 .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 800px;
+    height: 460px;
+    gap: 30px;
+    background-color: #e5e7eb;
+}
+
+.contentRow3 .top {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 100;
+    margin: 0px;
+    /* width: 750px; */
+}
+
+.contentRow3 .bottom {
+    align-self: flex-end;
+    margin-right: 30px;
+    font-weight: 900;
+    font-size: 18px;
+}
