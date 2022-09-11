@@ -1,5 +1,69 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Roboto, 'Times New Roman', Times, serif;
+}
 
-.header, .content, .footer {
-    /* display: flex; */
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header ul {
+    margin-left: auto;
+    display: flex;
+    gap: 20px;
+}
+
+.HeroSecondary, .header ul {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header, .footer, .contentRow1, .contentRow2, .contentRow3, .contentRow4 {
+    padding-left: 15vw;
+    padding-right: 15vw;
+    display: flex;
+}
+
+.header, .footer, .contentRow1 {
+    background-color: #1F2937;
+}
+
+
+.header {
+    height: 50px;
+    align-items: center;
+}
+
+.headerLogo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 600;
+}
+
+.footer {
+    color: #F9FAF8;
+}
+
+.footer {
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
 }
 
