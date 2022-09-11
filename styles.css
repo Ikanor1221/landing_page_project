@@ -45,7 +45,7 @@ a {
 
 
 .header {
-    height: 50px;
+    height: 80px;
     align-items: center;
 }
 
@@ -56,11 +56,8 @@ a {
 }
 
 .footer {
+    height: 80px;
     color: #F9FAF8;
-}
-
-.footer {
-    height: 50px;
     align-items: center;
     justify-content: center;
 }
@@ -102,7 +99,8 @@ a {
     font-size: 18px;
     color: #e5e7eb;
     background-color: #3882f6;
-    border: none;
+    border: 3px, solid;
+    border-color: #F9FAF8;
     border-radius: 6px;
     display: flex;
     height: 40px;
@@ -205,4 +203,60 @@ a {
     margin-right: 30px;
     font-weight: 900;
     font-size: 18px;
+}
+
+.contentRow4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.contentRow4 .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 900px;
+    background-color: #3882f6;
+    gap: 20px;
+    border-radius: 10px;
+    gap: 200px;
+}
+
+.contentRow4 .container .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #F9FAF8;
+}
+
+.contentRow4 .container .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.contentRow4 .container .right button{ 
+    font-size: 18px;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border: 3px, solid;
+    border-color: #F9FAF8;
+    border-radius: 6px;
+    display: flex;
+    height: 40px;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.contentRow4 .container .left .top {
+    font-weight: 600;
+    font-size: 20px;
 }
